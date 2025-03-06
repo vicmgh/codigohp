@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 if ($_SESSION['rol'] == 1 || $_SESSION['rol'] == 3) {
 include_once "includes/header.php";
